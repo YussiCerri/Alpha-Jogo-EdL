@@ -2,6 +2,7 @@
   "resourceType": "GMMainOptions",
   "resourceVersion": "1.4",
   "name": "Main",
+<<<<<<< HEAD
   "option_gameguid": "8bed3a6e-03e2-4a74-8e2b-9720fb78a20b",
   "option_gameid": "0",
   "option_game_speed": 60,
@@ -17,4 +18,21 @@
   "option_template_image": "${base_options_dir}/main/template_image.png",
   "option_template_icon": "${base_options_dir}/main/template_icon.png",
   "option_template_description": null,
+=======
+  "option_author": "Yussi",
+  "option_collision_compatibility": false,
+  "option_copy_on_write_enabled": false,
+  "option_draw_colour": 4294967295,
+  "option_game_speed": 60,
+  "option_gameguid": "126bd4aa-bdf1-472f-b0bf-0dd1e6002a62",
+  "option_gameid": "0",
+  "option_mips_for_3d_textures": false,
+  "option_sci_usesci": true,
+  "option_spine_licence": false,
+  "option_steam_app_id": "0",
+  "option_template_description": null,
+  "option_template_icon": "${base_options_dir}/main/template_icon.png",
+  "option_template_image": "${base_options_dir}/main/template_image.png",
+  "option_window_colour": 255,
+>>>>>>> e19c110dee696d1e77caad907bf5f77be91a390c
 }
