@@ -1,33 +1,18 @@
-/// @description Insert description here
-// You can write your code in this editor
+//Chamada a script que recebe as entradas
+obter_entrada()
 
-//MOVIMENTACAO NA AGUA
-if keyboard_check(vk_right) x+=hsp
-if keyboard_check(vk_left) x-=hsp
-if keyboard_check(vk_up) y-=vsp
-if keyboard_check(vk_down) y+=vsp
+#region Movimentação na Agua
 
-//DIRECAO DO PEIXE NA AGUA
-if keyboard_check(vk_right) and !(keyboard_check(vk_up) or keyboard_check(vk_down))
-{
-	image_xscale=1; 
-	image_angle=0
-}
-if keyboard_check(vk_left) and !(keyboard_check(vk_up) or keyboard_check(vk_down))
-{
-	image_xscale=-1; 
-	image_angle=0
-}
-if keyboard_check(vk_up) 
-{
-	if !keyboard_check(vk_right) and !keyboard_check(vk_left) {image_xscale=1; image_angle=90}
-	else if keyboard_check(vk_right) {image_xscale=1; image_angle=45}
-	else if keyboard_check(vk_left) {image_xscale=-1; image_angle=-45}
-}
+var _dir_h = (right - left)//direção horizontal
+var _dir_v = (down - up) //direção vertical
+x += hsp*_dir_h //incremento de x na direção escolhida
+y += vsp*_dir_v //incremento de y na direção escolhida
 
-if keyboard_check(vk_down)
-{
-	if !keyboard_check(vk_right) and !keyboard_check(vk_left) {image_xscale=1; image_angle=-90}
-	else if keyboard_check(vk_right) {image_xscale=1; image_angle=-45}
-	else if keyboard_check(vk_left) {image_xscale=-1; image_angle=45}
-}
+#endregion
+
+#region Direção do Peixe na Agua
+
+image_xscale = _dir_h
+image_angle = - 45*_dir_v*_dir_h
+
+#endregion
