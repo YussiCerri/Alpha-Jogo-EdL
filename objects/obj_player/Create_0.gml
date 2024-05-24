@@ -3,7 +3,7 @@
 
 hsp = 4 //VELOCIDADE HORIZONTAL
 vsp = 4 //VELOCIDADE VERTICAL
-
+depth = -10
 #region Variáveis de Direção
 
 left = false 
