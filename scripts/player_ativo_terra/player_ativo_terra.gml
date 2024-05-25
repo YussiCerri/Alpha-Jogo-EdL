@@ -13,7 +13,7 @@ function player_ativo_terra(){
 	else{
 		var _temp = hsp/abs(hsp)
 		var _mod_h = (_temp != 0)? _temp : 0
-		var _mov_valido = !place_meeting(x + _dir_h*(hsp),y, global.layer_de_colisao)
+		var _mov_valido = !place_meeting(x + (hsp),y, global.layer_de_colisao)
 		hsp = (_mov_valido and hsp != 0)? hsp - ACC*_mod_h: 0
 	}
 	
