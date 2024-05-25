@@ -1,9 +1,10 @@
-/// @description Insert description here
-// You can write your code in this editor
+global.layer_de_colisao = layer_tilemap_get_id(layer_get_id("layer_solid"))
+global.layer_de_agua = layer_tilemap_get_id(layer_get_id("layer_water"))
+state = ST.AGUA
 
-hsp = 4 //VELOCIDADE HORIZONTAL
-vsp = 4 //VELOCIDADE VERTICAL
-depth = -10
+hsp = 0 //VELOCIDADE HORIZONTAL
+vsp = 0 //VELOCIDADE VERTICAL
+
 #region Variáveis de Direção
 
 left = false 

@@ -1,4 +1,12 @@
 {
-  "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"Tilesets de terrenos","order":1,"path":"folders/Sprites/Tilesets de terrenos.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"ts_solido","order":1,"path":"tilesets/ts_solido/ts_solido.yy",},
+    {"name":"spr_solido","order":1,"path":"sprites/spr_solido/spr_solido.yy",},
+    {"name":"player_ativo_agua","order":1,"path":"scripts/player_ativo_agua/player_ativo_agua.yy",},
+    {"name":"enums_e_macros","order":3,"path":"scripts/enums_e_macros/enums_e_macros.yy",},
+    {"name":"player_ativo_terra","order":2,"path":"scripts/player_ativo_terra/player_ativo_terra.yy",},
+  ],
 }
