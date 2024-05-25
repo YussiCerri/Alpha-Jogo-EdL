@@ -4,4 +4,4 @@ enum ST{AGUA,TERRA}
 #macro P_SPEED 2
 #macro P_SPEED_MAX 16
 #macro GRAV 1
-#macro ACC 1
+#macro ACC 0.5
