@@ -11,6 +11,7 @@ global.left = false
 global.right = false
 global.up = false
 global.down = false
+global.interact = false
 
 #endregion
 

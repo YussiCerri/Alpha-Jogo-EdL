@@ -5,4 +5,5 @@ function obter_entrada(){
 	global.right = keyboard_check(global.control_right)
 	global.up = keyboard_check(global.control_up)
 	global.down = keyboard_check(global.control_down)
+	global.interact = keyboard_check_pressed(global.control_interact)
 }
