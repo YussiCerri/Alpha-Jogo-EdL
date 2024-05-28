@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_portal",
+  "%Name":"obj_privada",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_portal",
+  "name":"obj_privada",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -34,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_portal",
-    "path":"sprites/spr_portal/spr_portal.yy",
+    "name":"spr_privada_f",
+    "path":"sprites/spr_privada_f/spr_privada_f.yy",
   },
   "spriteMaskId":null,
   "visible":true,
