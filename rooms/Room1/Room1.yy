@@ -14,6 +14,7 @@
     {"name":"inst_6A38C518","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_7189C501","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_451FAFF","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_12044E4E","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -23,6 +24,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_privada","path":"objects/obj_privada/obj_privada.yy",},"propertyId":{"name":"destino_x","path":"objects/obj_privada/obj_privada.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"896",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_privada","path":"objects/obj_privada/obj_privada.yy",},"propertyId":{"name":"destino_y","path":"objects/obj_privada/obj_privada.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"672",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":608.0,},
+        {"$GMRInstance":"","%Name":"inst_12044E4E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_12044E4E","objectId":{"name":"obj_mapa","path":"objects/obj_mapa/obj_mapa.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":-64.0,},
       ],"layers":[],"name":"Sensores","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_4737D951","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4737D951","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":256.0,},
