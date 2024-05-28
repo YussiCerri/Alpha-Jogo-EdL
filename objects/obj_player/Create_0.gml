@@ -4,6 +4,7 @@ state = ST.AGUA //Estado Inicial padrão
 
 hsp = 0 //VELOCIDADE HORIZONTAL
 vsp = 0 //VELOCIDADE VERTICAL
+timer = 10 //TIMER DE 10 SEGUNDOS
 
 #region Variáveis de Direção
 
