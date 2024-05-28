@@ -1,13 +1,11 @@
 {
   "FolderOrderSettings":[
-    {"name":"Loja do Zé Piranha","order":7,"path":"folders/Objects/Loja do Zé Piranha.yy",},
-    {"name":"Loja do Zé Piranha","order":7,"path":"folders/Sprites/Loja do Zé Piranha.yy",},
-    {"name":"itens","order":1,"path":"folders/Sprites/Loja do Zé Piranha/itens.yy",},
     {"name":"Tilesets de terrenos","order":1,"path":"folders/Sprites/Tilesets de terrenos.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"obj_coin","order":3,"path":"objects/obj_coin/obj_coin.yy",},
     {"name":"obj_GUI","order":4,"path":"objects/obj_GUI/obj_GUI.yy",},
+    {"name":"obj_inimigo1","order":6,"path":"objects/obj_inimigo1/obj_inimigo1.yy",},
     {"name":"obj_privada","order":1,"path":"objects/obj_privada/obj_privada.yy",},
     {"name":"obj_tesouro","order":5,"path":"objects/obj_tesouro/obj_tesouro.yy",},
     {"name":"obj_transicao","order":2,"path":"objects/obj_transicao/obj_transicao.yy",},
@@ -19,7 +17,10 @@
     {"name":"spr_aquario","order":1,"path":"sprites/spr_aquario/spr_aquario.yy",},
     {"name":"spr_coin","order":3,"path":"sprites/spr_coin/spr_coin.yy",},
     {"name":"spr_fala","order":2,"path":"sprites/spr_fala/spr_fala.yy",},
+    {"name":"spr_hp","order":8,"path":"sprites/spr_hp/spr_hp.yy",},
+    {"name":"spr_inimigo1","order":9,"path":"sprites/spr_inimigo1/spr_inimigo1.yy",},
     {"name":"spr_interact","order":3,"path":"sprites/spr_interact/spr_interact.yy",},
+    {"name":"spr_player_dead","order":7,"path":"sprites/spr_player_dead/spr_player_dead.yy",},
     {"name":"spr_privada_a","order":6,"path":"sprites/spr_privada_a/spr_privada_a.yy",},
     {"name":"spr_privada_f","order":2,"path":"sprites/spr_privada_f/spr_privada_f.yy",},
     {"name":"spr_seta","order":4,"path":"sprites/spr_seta/spr_seta.yy",},

@@ -4,6 +4,10 @@ state = ST.AGUA //Estado Inicial padrão
 
 hsp = 0 //VELOCIDADE HORIZONTAL
 vsp = 0 //VELOCIDADE VERTICAL
+timer = 10 //TIMER DE 10 SEGUNDOS
+global.hp = 5 //Vida atual
+global.max_hp = 5 //Vida máxima
+
 
 #region Variáveis de Direção
 
