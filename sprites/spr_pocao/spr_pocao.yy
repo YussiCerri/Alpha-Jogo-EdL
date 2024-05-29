@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_cadeado",
+  "%Name":"spr_pocao",
   "bboxMode":0,
   "bbox_bottom":63,
   "bbox_left":0,
@@ -12,28 +12,28 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"06290c60-364f-4739-99a1-aa8d54bc3e66","name":"06290c60-364f-4739-99a1-aa8d54bc3e66","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"6d17f77e-b286-42af-9c82-abf674aedc7e","name":"6d17f77e-b286-42af-9c82-abf674aedc7e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":8,
   "gridY":8,
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d722c20e-9ff9-41de-b456-e42ba0084514","blendMode":0,"displayName":"default","isLocked":false,"name":"d722c20e-9ff9-41de-b456-e42ba0084514","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"55e48898-c1b6-42d9-ac85-959b965daa02","blendMode":0,"displayName":"default","isLocked":false,"name":"55e48898-c1b6-42d9-ac85-959b965daa02","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_cadeado",
+  "name":"spr_pocao",
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Loja do Zé Piranha",
-    "path":"folders/Sprites/Loja do Zé Piranha.yy",
+    "name":"itens",
+    "path":"folders/Sprites/Loja do Zé Piranha/itens.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_cadeado",
+    "%Name":"spr_pocao",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_cadeado",
+    "name":"spr_pocao",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"06290c60-364f-4739-99a1-aa8d54bc3e66","path":"sprites/spr_cadeado/spr_cadeado.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"666bf28b-e75f-4aea-9668-019149e86e4b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6d17f77e-b286-42af-9c82-abf674aedc7e","path":"sprites/spr_pocao/spr_pocao.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ddabeb9c-16d4-44b4-8c0a-0738a1536341","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

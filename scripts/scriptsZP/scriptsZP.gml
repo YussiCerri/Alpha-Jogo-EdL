@@ -33,12 +33,12 @@ function draw_loja(){
 function loja_ativa(){
 	static i = 0;
 	if keyboard_check_released(global.control_left){
-		i--
-		i = (i >= 0)? i : t_items - 1
-	}
-	else if keyboard_check_released(global.control_right){
 		i++
 		i = (i < t_items)? i : 0
+	}
+	else if keyboard_check_released(global.control_right){
+		i--
+		i = (i >= 0)? i : t_items - 1
 	}
 	else if global.quit {
 		obj_player.state = ST.AGUA
