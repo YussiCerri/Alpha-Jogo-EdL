@@ -27,4 +27,4 @@ else if(timer!=0)
 	if(alarm[0]==-1) {alarm[0]=game_get_speed(gamespeed_fps)}
 }
 
-if(timer==0) {state=ST.MORTO}
+if(timer==0 or global.hp<=0) {state=ST.MORTO}
