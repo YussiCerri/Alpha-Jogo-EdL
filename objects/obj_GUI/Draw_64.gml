@@ -15,3 +15,12 @@ draw_text(_text_x, _text_y, "X"+string(global.hp));
 draw_text(_text_x, _text_y +sprite_get_height(spr_coin), "X"+string(global.coins));
 
 
+switch(target.state){
+	case ST.TERRA: 
+		draw_text(32,132,"Tempo restante: "+string(target.timer)+" segundos")
+		break
+	case ST.MORTO:
+		draw_text(room_width/2-128,32,"FIM DE JOGO - Aperte R pra reiniciar")
+		break
+
+}

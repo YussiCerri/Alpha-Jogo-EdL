@@ -7,4 +7,4 @@ new CriarItem("Bomba"  , 5,  spr_bomba)
 ]
 
 t_items = array_length(items)
-item_atual = items[0]
+items_atuais = [items[0],items[0],items[0]]
