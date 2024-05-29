@@ -9,7 +9,6 @@ function draw_loja(){
 	draw_sprite(spr_minifalas,0, x+64, _y)
 	draw_sprite(spr_minifalas,0, x-64, _y)
 	
-	
 	draw_sprite_ext(spr_seta,0, x + 128, _y, 1,1,0,c_white,1)
 	draw_sprite_ext(spr_seta,0, x - 128, _y,-1,1,0,c_white,1)
 	
@@ -48,6 +47,7 @@ function loja_ativa(){
 	var _iprev = (i - 1 >=      0)? i - 1 : t_items - 1
 	var _iprox = (i + 1 < t_items)? i + 1 : 0
 	items_atuais = [items[_iprev], items[i],items[_iprox]]
+	if global.interact then comprar_item()
 }
 
 //Construtor de Objetos
@@ -58,8 +58,23 @@ function CriarItem(_nome = "item", _custo = 0, _sprite = spr_bomba) constructor 
 }
 
 function loja_inativa(){
-		if global.interact and place_meeting(x,y,obj_player){
-			obj_player.state = ST.PAUSA
-			state = ST.AGUA
+	if global.interact and p_meet{
+		obj_player.state = ST.PAUSA
+		state = ST.AGUA
+	}
+}
+
+function comprar_item(){
+	with(obj_player){
+		var _item = other.items_atuais[1]
+		if (_item.custo <= global.coins){
+			for(var _i = 0; _i < 5;_i++){
+				if (inv[_i] != NOITEM) {
+					global.coins -= _item.custo
+					inv[_i] = _item
+					break
+				}
+			}
 		}
+	}
 }

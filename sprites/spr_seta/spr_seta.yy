@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Loja do Zé Piranha",
-    "path":"folders/Sprites/Loja do Zé Piranha.yy",
+    "name":"Menu",
+    "path":"folders/Sprites/Loja do Zé Piranha/Menu.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

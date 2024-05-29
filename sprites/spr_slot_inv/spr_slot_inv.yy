@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_minifalas",
+  "%Name":"spr_slot_inv",
   "bboxMode":0,
-  "bbox_bottom":127,
-  "bbox_left":64,
-  "bbox_right":127,
-  "bbox_top":64,
+  "bbox_bottom":143,
+  "bbox_left":48,
+  "bbox_right":143,
+  "bbox_top":48,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -19,9 +19,10 @@
   "height":192,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"0354eba7-9c21-4751-9e9d-d44dfc087707","blendMode":0,"displayName":"default","isLocked":false,"name":"0354eba7-9c21-4751-9e9d-d44dfc087707","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"aa52cf23-35b2-4bd6-8d21-197ca9d09cdf","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"aa52cf23-35b2-4bd6-8d21-197ca9d09cdf","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"0354eba7-9c21-4751-9e9d-d44dfc087707","blendMode":0,"displayName":"default","isLocked":false,"name":"0354eba7-9c21-4751-9e9d-d44dfc087707","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
   ],
-  "name":"spr_minifalas",
+  "name":"spr_slot_inv",
   "nineSlice":{
     "$GMNineSliceData":"",
     "bottom":118,
@@ -44,15 +45,15 @@
   },
   "origin":4,
   "parent":{
-    "name":"Menu",
-    "path":"folders/Sprites/Loja do Zé Piranha/Menu.yy",
+    "name":"inventario",
+    "path":"folders/Sprites/Loja do Zé Piranha/inventario.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_minifalas",
+    "%Name":"spr_slot_inv",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -76,7 +77,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_minifalas",
+    "name":"spr_slot_inv",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -88,7 +89,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dd3248fc-ab5c-4575-a24f-160aab84327c","path":"sprites/spr_minifalas/spr_minifalas.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dd3248fc-ab5c-4575-a24f-160aab84327c","path":"sprites/spr_slot_inv/spr_slot_inv.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"48d337c3-ef0f-425e-b349-e0a36333f729","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
