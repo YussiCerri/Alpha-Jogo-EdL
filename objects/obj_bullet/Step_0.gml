@@ -1,0 +1,1 @@
+if position_meeting(x,y,global.layer_de_colisao) instance_destroy()

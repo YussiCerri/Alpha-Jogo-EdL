@@ -50,14 +50,6 @@ function loja_ativa(){
 	if global.interact then comprar_item()
 }
 
-//Construtor de Objetos
-function CriarItem(_nome = "", _custo = 0, _sprite = spr_vazio, _usar = function(){}) constructor {
-	nome = _nome
-	custo = _custo
-	sprite = _sprite
-	usar = _usar
-}
-
 function loja_inativa(){
 	if global.interact and p_meet{
 		obj_player.state = ST.PAUSA
@@ -70,7 +62,7 @@ function comprar_item(){
 		var _item = other.items_atuais[1]
 		if (_item.custo <= global.coins){
 			for(var _i = 0; _i < 5;_i++){
-				if (inv[_i] != NOITEM) {
+				if (inv[_i].nome == NOITEM.nome) {
 					global.coins -= _item.custo
 					inv[_i] = _item
 					break

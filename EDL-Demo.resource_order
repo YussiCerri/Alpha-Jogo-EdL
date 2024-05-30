@@ -1,8 +1,10 @@
 {
   "FolderOrderSettings":[
-    {"name":"Menu","order":11,"path":"folders/Sprites/Loja do Zé Piranha/Menu.yy",},
-    {"name":"inventario","order":10,"path":"folders/Sprites/Loja do Zé Piranha/inventario.yy",},
-    {"name":"itens","order":1,"path":"folders/Sprites/Loja do Zé Piranha/itens.yy",},
+    {"name":"tiros","order":1,"path":"folders/Objects/Loja do Zé Piranha/tiros.yy",},
+    {"name":"itens_pequeno","order":4,"path":"folders/Sprites/Loja do Zé Piranha/itens_pequeno.yy",},
+    {"name":"inventario","order":2,"path":"folders/Sprites/Loja do Zé Piranha/inventario.yy",},
+    {"name":"itens_grande","order":1,"path":"folders/Sprites/Loja do Zé Piranha/itens_grande.yy",},
+    {"name":"Menu","order":3,"path":"folders/Sprites/Loja do Zé Piranha/Menu.yy",},
     {"name":"Tilesets de terrenos","order":1,"path":"folders/Sprites/Tilesets de terrenos.yy",},
   ],
   "ResourceOrderSettings":[
@@ -22,6 +24,7 @@
     {"name":"player_morto","order":5,"path":"scripts/player_morto/player_morto.yy",},
     {"name":"scriptsZP","order":4,"path":"scripts/scriptsZP/scriptsZP.yy",},
     {"name":"spr_aquario","order":1,"path":"sprites/spr_aquario/spr_aquario.yy",},
+    {"name":"spr_bullet","order":10,"path":"sprites/spr_bullet/spr_bullet.yy",},
     {"name":"spr_cadeado","order":2,"path":"sprites/spr_cadeado/spr_cadeado.yy",},
     {"name":"spr_coin","order":3,"path":"sprites/spr_coin/spr_coin.yy",},
     {"name":"spr_desentupidor","order":2,"path":"sprites/spr_desentupidor/spr_desentupidor.yy",},
@@ -39,6 +42,7 @@
     {"name":"spr_solido","order":1,"path":"sprites/spr_solido/spr_solido.yy",},
     {"name":"spr_tesouro_a","order":5,"path":"sprites/spr_tesouro_a/spr_tesouro_a.yy",},
     {"name":"spr_tesouro_f","order":4,"path":"sprites/spr_tesouro_f/spr_tesouro_f.yy",},
+    {"name":"spr_uzi","order":6,"path":"sprites/spr_uzi/spr_uzi.yy",},
     {"name":"spr_vazio","order":5,"path":"sprites/spr_vazio/spr_vazio.yy",},
     {"name":"ts_solido","order":1,"path":"tilesets/ts_solido/ts_solido.yy",},
   ],

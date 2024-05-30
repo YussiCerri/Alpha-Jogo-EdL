@@ -8,9 +8,11 @@ if(state < ST.MORTO){
 
 switch(state){
 	case ST.TERRA:
+		usar_item_atual()
 		player_ativo_terra()
 		break
 	case ST.AGUA:
+		usar_item_atual()
 		player_ativo_agua()
 		break
 	case ST.MORTO:
@@ -19,6 +21,5 @@ switch(state){
 	default: break
 }
 if keyboard_check(ord("R")){game_restart()}
-if global.use then usar_item()
 
 if(timer==0 or global.hp<=0) {matar_player()}
