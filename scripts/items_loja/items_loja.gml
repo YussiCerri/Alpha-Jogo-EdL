@@ -7,7 +7,20 @@ function items_loja(){
 			with(obj_player) timer = 10
 		}
 	),
-	new CriarItem("Bomba"       , 10,spr_bomba,ITYPE.CONSUMIVEL),//implementar bomba
+	new CriarItem("Bomba"       , 10,spr_bomba,ITYPE.ARMA,
+		function(){
+			static intensity = 0
+			intensity ++
+			if intensity == 10{
+				consume_item()
+				with(obj_player) instance_create_layer(x,y,"Sensores",obj_bomba,{
+					speed: 8,
+					direction: point_direction(x,y,mouse_x,mouse_y)
+				})
+				intensity = 0
+			}
+		}
+	),//implementar bomba
 	new CriarItem("Desentupidor",  5,spr_desentupidor,ITYPE.CONSUMIVEL,
 		function(){
 			var _target = noone

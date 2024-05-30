@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"items_loja",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Ze Piranha",
+    "path":"folders/Scripts/Ze Piranha.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
