@@ -1,17 +1,16 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+//Sprite da privada dependendo da condição de bloqueio
+image_index = desbloqueada
+
 //Checar colisao com player
 var _player = place_meeting(x,y,obj_player)
 
 //Checar se pressionou espaço
 var _espaco = keyboard_check_released(vk_space)
 
-if instance_number(obj_coin)<=5
-{
-	desbloqueada=true
-	sprite_index = spr_privada_a
-}
+if instance_number(obj_coin)<=5 {desbloqueada=true}
 
 if(desbloqueada and _player and _espaco)
 {
