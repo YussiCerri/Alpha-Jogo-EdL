@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Yussi Cerri\\OneDrive\\Documents\\GameMakerStudio2\\EDL-Demo-Real\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yussi Cerri\\OneDrive\\Documents\\GameMakerStudio2\\EDL-Demo-Real\\EDL-Demo.yyp||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EDL-Demo.yyp||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EDL-Demo.yyp",
+              "DocumentMoniker": "C:\\Users\\Yussi Cerri\\OneDrive\\Documents\\GameMakerStudio2\\EDL-Demo-Real\\EDL-Demo.yyp",
+              "RelativeDocumentMoniker": "EDL-Demo.yyp",
+              "ToolTip": "C:\\Users\\Yussi Cerri\\OneDrive\\Documents\\GameMakerStudio2\\EDL-Demo-Real\\EDL-Demo.yyp",
+              "RelativeToolTip": "EDL-Demo.yyp",
+              "ViewState": "AQIAAD4AAAAAAAAAAADgv0QAAABGAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFlSURBVDhPpVO9zoJAEFx\u002BpLT2MexoLSksfArfxTcAkg8STXwOK2prS19AExM1Kjl3hgMR\u002BIov3yYT93Zn5vbu0JHTych\u002BL\u002BI48qcwRmQ202S300x6UDvjWiAf4kCrfRuYwE7h2NwbjcQLAuasVc2Gh/gYIHQsEF3X1dTIT5ZJrkCOGk0w\u002Ble0jqAE43ke8yRJVFdFmqasoQdOza\u002B01mBIfLlcCARq6OkkH5OuQVtclqWZz\u002BcmiiLzfD5Zy7KsEnYNcDIUNpsNiff7nWKSFMvl0pzPZ/ZWqxVr1KjW10UT2uevTiO6qwT6AofDQcbjsSwWCymKQiaTiXi\u002BL\u002BXrRW7vCHEcc6fb7cadj8cj12EYsl/fE1EfoTboXuL1eiUQtYHv\u002B/074OIXE0Se5w2nEQNfBrbRNlmv12a73Vb9Fmd4AhRbJsAoCIh63eVB\u002B/mU8QL2FXRq5uXjQSBnrWo2PMT//s7TqbwBAwlnO9PbUUEAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-05-30T19:07:04.216Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

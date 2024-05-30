@@ -7,3 +7,4 @@ enum ST{AGUA,TERRA,MORTO,PAUSA}
 #macro ACC 0.5
 #macro NOITEM {nome: "", sprite: spr_vazio , custo: 0,tipo: ITYPE.NOTITEM, usar: function(){}}
 enum ITYPE{NOTITEM,CONSUMIVEL,ARMA,EQUIPTOP,EQUIPBACK}
+enum MOV{CIMA,BAIXO,ESQUERDA,DIREITA}
