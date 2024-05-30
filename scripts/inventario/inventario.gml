@@ -8,7 +8,7 @@ function draw_inventario(){
 	i +=  mouse_wheel_down() - mouse_wheel_up()
 	i = (i < 0)? 4: i
 	i = (i > 4)? 0: i
-	item_selected = inv[i]
+	item_index = i
 	//inv é o inventario de obj_player
 	for(var _i = 0; _i < 5; _i++){
 		draw_sprite(i == _i? spr_slot_sel: spr_slot_inv,0,_x, _y + (_i - 2)*96) 

@@ -5,4 +5,4 @@ enum ST{AGUA,TERRA,MORTO,PAUSA}
 #macro P_SPEED_MAX 16
 #macro GRAV 1
 #macro ACC 0.5
-#macro NOITEM {nome: "", sprite: spr_vazio , custo: 0}
+#macro NOITEM {nome: "", sprite: spr_vazio , custo: 0, usar: function(){}}

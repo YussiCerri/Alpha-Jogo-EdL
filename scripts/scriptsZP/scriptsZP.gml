@@ -51,10 +51,11 @@ function loja_ativa(){
 }
 
 //Construtor de Objetos
-function CriarItem(_nome = "item", _custo = 0, _sprite = spr_bomba) constructor {
+function CriarItem(_nome = "", _custo = 0, _sprite = spr_vazio, _usar = function(){}) constructor {
 	nome = _nome
 	custo = _custo
 	sprite = _sprite
+	usar = _usar
 }
 
 function loja_inativa(){

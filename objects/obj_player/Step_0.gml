@@ -18,7 +18,7 @@ switch(state){
 		break
 	default: break
 }
-
 if keyboard_check(ord("R")){game_restart()}
+if global.use then usar_item()
 
 if(timer==0 or global.hp<=0) {matar_player()}
