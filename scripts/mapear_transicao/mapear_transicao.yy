@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"mapear_transicao",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"mapear_transicao",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
