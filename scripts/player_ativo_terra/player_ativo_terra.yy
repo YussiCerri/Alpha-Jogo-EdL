@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"player_ativo_terra",
   "parent":{
-    "name":"Player",
-    "path":"folders/Scripts/Player.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

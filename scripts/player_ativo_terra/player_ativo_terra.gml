@@ -1,8 +1,6 @@
 // Os recursos de script mudaram para a v2.3.0; veja
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 para obter mais informações
 function player_ativo_terra(){
-	
-	#region Movimento
 	image_angle = 0
 	var _xscale_prev = image_xscale
 	var _dir_h = (global.right - global.left) //direção horizontal
@@ -29,11 +27,4 @@ function player_ativo_terra(){
 	y += vsp
 	
 	image_xscale = (_dir_h != 0)? _dir_h: _xscale_prev
-	#endregion
-	
-	if(timer!=0)
-	{
-		if(alarm[0]==-1) {alarm[0]=game_get_speed(gamespeed_fps)}
-	}
-	
 }

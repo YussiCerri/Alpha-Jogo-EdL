@@ -8,17 +8,13 @@ timer = 10 //TIMER DE 10 SEGUNDOS
 global.hp = 5 //Vida atual
 global.max_hp = 5 //Vida máxima
 
-inv = [NOITEM,NOITEM,NOITEM,NOITEM,NOITEM] // Array de structs vazios
-item_index = 0
+
 #region Variáveis de Direção
 
 global.left = false 
 global.right = false
 global.up = false
 global.down = false
-global.interact = false
-global.quit = false
-global.use = false
 
 #endregion
 
