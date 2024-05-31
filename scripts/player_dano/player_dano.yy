@@ -1,9 +1,9 @@
 {
   "$GMScript":"",
-  "%Name":"player_invencivel",
+  "%Name":"player_dano",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"player_invencivel",
+  "name":"player_dano",
   "parent":{
     "name":"Player",
     "path":"folders/Scripts/Player.yy",

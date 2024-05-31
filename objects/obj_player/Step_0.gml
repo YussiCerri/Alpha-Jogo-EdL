@@ -23,5 +23,3 @@ switch(state){
 if keyboard_check(ord("R")){game_restart()}
 
 if(timer==0 or global.hp<=0) {matar_player()}
-
-if(invencivel==true){player_invencivel()}
