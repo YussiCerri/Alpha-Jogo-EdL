@@ -5,6 +5,10 @@ state = ST.AGUA //Estado Inicial padrão
 hsp = 0 //VELOCIDADE HORIZONTAL
 vsp = 0 //VELOCIDADE VERTICAL
 timer = 10 //TIMER DE 10 SEGUNDOS
+invencivel = false
+timer_invencivel = 0 //Variável para controlar tempo de invencibilidade
+vel_piscar = 8; // Qunato maior mais lento o sprite pisca
+timer_piscar = 0;
 global.hp = 5 //Vida atual
 global.max_hp = 5 //Vida máxima
 
