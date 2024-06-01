@@ -57,6 +57,7 @@
     {"id":{"name":"obj_transicao","path":"objects/obj_transicao/obj_transicao.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"id":{"name":"enums_e_macros","path":"scripts/enums_e_macros/enums_e_macros.yy",},},
     {"id":{"name":"inventario","path":"scripts/inventario/inventario.yy",},},
     {"id":{"name":"items_loja","path":"scripts/items_loja/items_loja.yy",},},
@@ -105,6 +106,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
