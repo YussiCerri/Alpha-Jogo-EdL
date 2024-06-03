@@ -37,8 +37,8 @@
     {"$GMRInstanceLayer":"","%Name":"Sensores","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_7B72708C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7B72708C","objectId":{"name":"obj_privada","path":"objects/obj_privada/obj_privada.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_privada","path":"objects/obj_privada/obj_privada.yy",},"propertyId":{"name":"destino","path":"objects/obj_privada/obj_privada.yy",},"resource":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Room1",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_privada","path":"objects/obj_privada/obj_privada.yy",},"propertyId":{"name":"destino_x","path":"objects/obj_privada/obj_privada.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"160",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_privada","path":"objects/obj_privada/obj_privada.yy",},"propertyId":{"name":"destino_y","path":"objects/obj_privada/obj_privada.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"608",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_privada","path":"objects/obj_privada/obj_privada.yy",},"propertyId":{"name":"destino_x","path":"objects/obj_privada/obj_privada.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"352",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_privada","path":"objects/obj_privada/obj_privada.yy",},"propertyId":{"name":"destino_y","path":"objects/obj_privada/obj_privada.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"720",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":416.0,},
       ],"layers":[],"name":"Sensores","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"layer_solid","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"layer_solid","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
@@ -98,7 +98,7 @@
   "roomSettings":{
     "Height":768,
     "inheritRoomSettings":false,
-    "persistent":false,
+    "persistent":true,
     "Width":1366,
   },
   "sequenceId":null,
@@ -113,7 +113,7 @@
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
   ],
   "viewSettings":{
-    "clearDisplayBuffer":true,
+    "clearDisplayBuffer":false,
     "clearViewBackground":false,
     "enableViews":false,
     "inheritViewSettings":false,
