@@ -1,22 +1,25 @@
-/// @description M
+/// @description Move o jogador de volta para fora do inimigo e aplica dano se necessário
 if (place_meeting(x, y, obj_inimigo1)) {
-    // Move o jogador de volta para fora do inimigo
+   
+   // Move o jogador de volta para fora do inimigo
+    // Variáveis temporárias para armazenar a posição antiga
     var _old_x = x;
     var _old_y = y;
 
-    // Move o jogador de volta ao longo de sua direção de movimento até que não haja colisão
+    // Calcular a direção do jogador para o inimigo
+    var _dir = point_direction(x, y, other.x, other.y);
+
+    // Inverter a direção para empurrar o jogador para trás
+    var _push_direction = _dir + 180;
+
+    // Move o jogador de volta ao longo da direção invertida até que não haja colisão
     while (place_meeting(x, y, obj_inimigo1)) {
-        x -= lengthdir_x(1, direction);
-        y -= lengthdir_y(1, direction);
+        x += lengthdir_x(1, _push_direction);
+        y += lengthdir_y(1, _push_direction);
     }
-    
-    // Verifica se ainda está em colisão após ajustar a posição
-    if (place_meeting(x, y, obj_inimigo1)) {
-        // Se ainda houver colisão, reverter para a posição antiga
-        x = old_x;
-        y = old_y;
+
+    // Aplica o dano ao jogador caso não esteja morto ou invencível
+    if (!invencivel && global.hp > 0) {
+        player_dano();
     }
-	player_dano() // Aplica o dano ao jogador
 }
-	
-	

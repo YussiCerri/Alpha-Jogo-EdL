@@ -1,5 +1,4 @@
 function player_dano() {
-    if (!invencivel && global.hp > 0) {
         // Reduzir a vida do jogador
         global.hp -= 1;
         if (global.hp == 0) {
@@ -11,5 +10,4 @@ function player_dano() {
         timer_invencivel = 2; // Duração da invencibilidade em segundos
         alarm[1] = timer_invencivel * game_get_speed(gamespeed_fps); // Definir alarme para fim da invencibilidade
         alarm[2] = vel_piscar; // Definir alarme para piscar
-    }
 }
