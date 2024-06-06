@@ -10,10 +10,12 @@ switch(state){
 	case ST.TERRA:
 		usar_item_atual()
 		player_ativo_terra()
+		interagir()
 		break
 	case ST.AGUA:
 		usar_item_atual()
 		player_ativo_agua()
+		interagir()
 		break
 	case ST.MORTO:
 		player_morto()

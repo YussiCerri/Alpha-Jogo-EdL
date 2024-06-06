@@ -1,4 +1,3 @@
-draw_self()
 switch(state){
 	case ST.PAUSA:
 		if p_meet{

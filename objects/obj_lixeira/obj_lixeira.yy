@@ -1,13 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_loja",
+  "%Name":"obj_lixeira",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":73,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_loja",
+  "name":"obj_lixeira",
   "overriddenProperties":[],
   "parent":{
     "name":"Loja do Zé Piranha",
@@ -35,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_loja",
-    "path":"sprites/spr_loja/spr_loja.yy",
+    "name":"spr_lixeira",
+    "path":"sprites/spr_lixeira/spr_lixeira.yy",
   },
   "spriteMaskId":null,
   "visible":true,

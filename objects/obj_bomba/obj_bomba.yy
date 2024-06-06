@@ -9,8 +9,8 @@
   "name":"obj_bomba",
   "overriddenProperties":[],
   "parent":{
-    "name":"Loja do Zé Piranha",
-    "path":"folders/Objects/Loja do Zé Piranha.yy",
+    "name":"relacionados a itens",
+    "path":"folders/Objects/Loja do Zé Piranha/relacionados a itens.yy",
   },
   "parentObjectId":null,
   "persistent":false,

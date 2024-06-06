@@ -24,3 +24,4 @@ function usar_item_atual(){
 		case ITYPE.EQUIPTOP: case ITYPE.EQUIPBACK: usar_item(); break
 	}
 }
+
