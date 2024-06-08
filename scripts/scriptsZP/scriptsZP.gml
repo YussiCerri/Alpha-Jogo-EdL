@@ -30,20 +30,30 @@ function draw_loja(){
 
 
 function loja_ativa(){
+	static status = false
 	static i = 0;
-	if keyboard_check_released(global.control_left){
-		i++
-		i = (i < t_items)? i : 0
+	if status {
+		if keyboard_check_released(global.control_left){
+			i++
+			i = (i < t_items)? i : 0
+		}
+		else if keyboard_check_released(global.control_right){
+			i--
+			i = (i >= 0)? i : t_items - 1
+		}
+		else {
+			devolver_controle() 
+			if global.quit {status = false}
+		}
+		var _iprev = (i - 1 >=      0)? i - 1 : t_items - 1
+		var _iprox = (i + 1 < t_items)? i + 1 : 0
+		items_atuais = [items[_iprev], items[i],items[_iprox]]
+		if global.interact then comprar_item()
 	}
-	else if keyboard_check_released(global.control_right){
-		i--
-		i = (i >= 0)? i : t_items - 1
+	else{
+		status = true
+	
 	}
-	else devolver_controle() 
-	var _iprev = (i - 1 >=      0)? i - 1 : t_items - 1
-	var _iprox = (i + 1 < t_items)? i + 1 : 0
-	items_atuais = [items[_iprev], items[i],items[_iprox]]
-	if global.interact then comprar_item()
 }
 
 function comprar_item(){

@@ -40,7 +40,7 @@ function items_loja(){
 			),
 			new CriarItem("Jetpack"     , 40,spr_jetpack,ITYPE.EQUIPBACK,
 				function(){
-					if global.use /*with(obj_player)*/{ 
+					if global.use{ 
 						vsp -= 1
 						vsp = (abs(vsp) <= P_SPEED_MAX)? vsp: P_SPEED_MAX
 					}
@@ -50,8 +50,10 @@ function items_loja(){
 				function(){
 					static i = 0
 					switch(i){
-						case 0: /*with(obj_player)*/ instance_create_layer(x,y,"Sensores", obj_bullet,{
-							direction: point_direction(x,y,mouse_x,mouse_y),
+						case 0: 
+							var _dir = point_direction(x,y,mouse_x,mouse_y)						
+							instance_create_layer(x+16*dcos(_dir),y-16*dsin(_dir),"Sensores", obj_bullet,{
+							direction: _dir,
 							speed: 16,
 							})
 						default: i = (i + 1)%8
@@ -84,6 +86,20 @@ function items_loja(){
 					}
 				}
 			),
+			new CriarItem("Uzi_gelo", 50, spr_ice_gun, ITYPE.ARMA,
+				function(){
+					static i = 0
+					switch(i){
+						case 0:  
+							var _dir = point_direction(x,y,mouse_x,mouse_y)
+							instance_create_layer(x+16*dcos(_dir),y-16*dsin(_dir),"Sensores", obj_freeze,{
+							direction: _dir+irandom_range(-15,15),
+							speed: 8,
+							})
+						default: i = (i + 1)%4
+					}
+				}
+			),			
 		]
 	}
 }

@@ -1,9 +1,8 @@
 {
   "FolderOrderSettings":[
     {"name":"relacionados a itens","order":5,"path":"folders/Objects/Loja do Zé Piranha/relacionados a itens.yy",},
-    {"name":"Bomba","order":2,"path":"folders/Objects/Loja do Zé Piranha/relacionados a itens/Bomba.yy",},
-    {"name":"Bomba Buraco Negro","order":3,"path":"folders/Objects/Loja do Zé Piranha/relacionados a itens/Bomba Buraco Negro.yy",},
-    {"name":"tiros","order":1,"path":"folders/Objects/Loja do Zé Piranha/tiros.yy",},
+    {"name":"Bomba Buraco Negro","order":1,"path":"folders/Objects/Loja do Zé Piranha/relacionados a itens/Bomba Buraco Negro.yy",},
+    {"name":"tiros","order":2,"path":"folders/Objects/Loja do Zé Piranha/relacionados a itens/tiros.yy",},
     {"name":"Player","order":8,"path":"folders/Scripts/Player.yy",},
     {"name":"Ze Piranha","order":9,"path":"folders/Scripts/Ze Piranha.yy",},
     {"name":"Loja do Zé Piranha","order":1,"path":"folders/Sprites/Loja do Zé Piranha.yy",},
@@ -17,6 +16,7 @@
     {"name":"obj_bn","order":1,"path":"objects/obj_bn/obj_bn.yy",},
     {"name":"obj_coin","order":3,"path":"objects/obj_coin/obj_coin.yy",},
     {"name":"obj_explosion","order":1,"path":"objects/obj_explosion/obj_explosion.yy",},
+    {"name":"obj_freeze","order":1,"path":"objects/obj_freeze/obj_freeze.yy",},
     {"name":"obj_GUI","order":4,"path":"objects/obj_GUI/obj_GUI.yy",},
     {"name":"obj_inimigo1","order":6,"path":"objects/obj_inimigo1/obj_inimigo1.yy",},
     {"name":"obj_interactive","order":4,"path":"objects/obj_interactive/obj_interactive.yy",},
@@ -44,6 +44,8 @@
     {"name":"spr_explosion","order":11,"path":"sprites/spr_explosion/spr_explosion.yy",},
     {"name":"spr_fala","order":3,"path":"sprites/spr_fala/spr_fala.yy",},
     {"name":"spr_hp","order":9,"path":"sprites/spr_hp/spr_hp.yy",},
+    {"name":"spr_ice_bullet","order":8,"path":"sprites/spr_ice_bullet/spr_ice_bullet.yy",},
+    {"name":"spr_ice_gun","order":6,"path":"sprites/spr_ice_gun/spr_ice_gun.yy",},
     {"name":"spr_ima","order":1,"path":"sprites/spr_ima/spr_ima.yy",},
     {"name":"spr_inimigo1","order":10,"path":"sprites/spr_inimigo1/spr_inimigo1.yy",},
     {"name":"spr_interact","order":4,"path":"sprites/spr_interact/spr_interact.yy",},
