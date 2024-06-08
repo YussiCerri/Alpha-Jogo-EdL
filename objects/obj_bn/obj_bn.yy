@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_explosion",
+  "%Name":"obj_bn",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_explosion",
+  "name":"obj_bn",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bomba",
-    "path":"folders/Objects/Loja do Zé Piranha/relacionados a itens/Bomba.yy",
+    "name":"Bomba Buraco Negro",
+    "path":"folders/Objects/Loja do Zé Piranha/relacionados a itens/Bomba Buraco Negro.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_explosion",
-    "path":"sprites/spr_explosion/spr_explosion.yy",
+    "name":"spr_buraco_negro",
+    "path":"sprites/spr_buraco_negro/spr_buraco_negro.yy",
   },
   "spriteMaskId":null,
   "visible":true,

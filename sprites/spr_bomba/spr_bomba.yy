@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"itens_grande",
-    "path":"folders/Sprites/Loja do Zé Piranha/itens_grande.yy",
+    "name":"itens_pequeno",
+    "path":"folders/Sprites/Loja do Zé Piranha/itens_pequeno.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
