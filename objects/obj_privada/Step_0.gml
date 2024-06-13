@@ -1,3 +1,5 @@
+
+
 if desbloqueada and place_meeting(x,y,obj_player)
 {
 	var selecionada = global.salas[num_operacoes("g")][1] //sala selecionada na opcao das privadas desbloqueadas
@@ -5,10 +7,10 @@ if desbloqueada and place_meeting(x,y,obj_player)
 	if keyboard_check_pressed(ord("D")) num_operacoes("+")
 	
 	if global.use {
-		if array_get(global.salas[room],1)!=self
+		if array_get(global.salas[indice],1)!=self
 		{
-			array_set(global.salas[room],0,room)
-			array_set(global.salas[room],1,self)
+			array_set(global.salas[indice],0,room)
+			array_set(global.salas[indice],1,self)
 		}
 	}
 	

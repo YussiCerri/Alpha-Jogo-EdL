@@ -4,6 +4,8 @@ global.mapa = ds_grid_create(5,5)
 xx=0 //COORDENADA X ATUAL DO MAPA GLOBAL
 yy=0 //COORDENADA Y ATUAL DO MAPA GLOBAL
 global.salas=[]
+global.rooms_nomes=[room_get_name(Room1),room_get_name(Room2),room_get_name(Room3),room_get_name(Room4),room_get_name(Room5)]
+array_sort(global.rooms_nomes,true)
 for(i=0;i<5;i++)
 {
 	global.salas[i]=[]
