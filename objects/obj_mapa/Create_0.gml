@@ -4,7 +4,7 @@ global.mapa = ds_grid_create(5,5)
 xx=0 //COORDENADA X ATUAL DO MAPA GLOBAL
 yy=0 //COORDENADA Y ATUAL DO MAPA GLOBAL
 global.salas=[]
-for(i=0;i<3;i++)
+for(i=0;i<5;i++)
 {
 	global.salas[i]=[]
 	global.salas[i][0]=undefined
@@ -13,3 +13,5 @@ for(i=0;i<3;i++)
 ds_grid_set(global.mapa,0,0,Room1)
 ds_grid_set(global.mapa,1,0,Room2)
 ds_grid_set(global.mapa,2,0,Room3)
+ds_grid_set(global.mapa,3,0,Room4)
+ds_grid_set(global.mapa,4,0,Room5)
