@@ -62,10 +62,10 @@ function items_loja(){
 			),
 			new CriarItem("Ima",20,spr_ima, ITYPE.EQUIPTOP,
 				function(){
-					if instance_exists(obj_coin) with(obj_coin){
+					with(obj_coin){
 						var _dist = distance_to_object(other)
 						var _dir = point_direction(x,y,other.x,other.y)
-						if _dist <= 500{
+						if _dist <= 500 and _dist > 0{
 							x += 100*(dcos(_dir))/_dist
 							y -= 100*(dsin(_dir))/_dist
 						}
