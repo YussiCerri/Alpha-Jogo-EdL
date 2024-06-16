@@ -10,3 +10,4 @@ global.control_use = ini_read_real("Controls","use", ord("Z"))
 
 ini_close()
 
+audio_play_sound(snd_theme,1,true)

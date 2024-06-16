@@ -10,9 +10,4 @@ ini_write_real("Controls","use",global.control_use)
 
 ini_close()
 
-
-
-
-
-
-
+audio_stop_sound(snd_theme)

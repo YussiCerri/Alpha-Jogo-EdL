@@ -83,6 +83,7 @@
     {"id":{"name":"player_morto","path":"scripts/player_morto/player_morto.yy",},},
     {"id":{"name":"scriptsZP","path":"scripts/scriptsZP/scriptsZP.yy",},},
     {"id":{"name":"snd_coin","path":"sounds/snd_coin/snd_coin.yy",},},
+    {"id":{"name":"snd_theme","path":"sounds/snd_theme/snd_theme.yy",},},
     {"id":{"name":"spr_agua","path":"sprites/spr_agua/spr_agua.yy",},},
     {"id":{"name":"spr_aquario","path":"sprites/spr_aquario/spr_aquario.yy",},},
     {"id":{"name":"spr_bomba_bn","path":"sprites/spr_bomba_bn/spr_bomba_bn.yy",},},

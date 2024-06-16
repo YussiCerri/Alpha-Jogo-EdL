@@ -38,6 +38,7 @@
     {"name":"player_dano","order":5,"path":"scripts/player_dano/player_dano.yy",},
     {"name":"player_morto","order":4,"path":"scripts/player_morto/player_morto.yy",},
     {"name":"scriptsZP","order":1,"path":"scripts/scriptsZP/scriptsZP.yy",},
+    {"name":"snd_theme","order":1,"path":"sounds/snd_theme/snd_theme.yy",},
     {"name":"spr_aquario","order":5,"path":"sprites/spr_aquario/spr_aquario.yy",},
     {"name":"spr_bomba_bn","order":3,"path":"sprites/spr_bomba_bn/spr_bomba_bn.yy",},
     {"name":"spr_bomba","order":2,"path":"sprites/spr_bomba/spr_bomba.yy",},
