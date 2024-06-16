@@ -116,6 +116,7 @@
     {"id":{"name":"spr_uzi_p","path":"sprites/spr_uzi_p/spr_uzi_p.yy",},},
     {"id":{"name":"spr_uzi","path":"sprites/spr_uzi/spr_uzi.yy",},},
     {"id":{"name":"spr_vazio","path":"sprites/spr_vazio/spr_vazio.yy",},},
+    {"id":{"name":"spr_ze_piranha","path":"sprites/spr_ze_piranha/spr_ze_piranha.yy",},},
     {"id":{"name":"ts_agua","path":"tilesets/ts_agua/ts_agua.yy",},},
     {"id":{"name":"ts_solido","path":"tilesets/ts_solido/ts_solido.yy",},},
   ],

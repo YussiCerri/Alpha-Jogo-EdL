@@ -65,6 +65,7 @@
     {"name":"spr_tesouro_f","order":5,"path":"sprites/spr_tesouro_f/spr_tesouro_f.yy",},
     {"name":"spr_uzi","order":6,"path":"sprites/spr_uzi/spr_uzi.yy",},
     {"name":"spr_vazio","order":5,"path":"sprites/spr_vazio/spr_vazio.yy",},
+    {"name":"spr_ze_piranha","order":5,"path":"sprites/spr_ze_piranha/spr_ze_piranha.yy",},
     {"name":"ts_solido","order":1,"path":"tilesets/ts_solido/ts_solido.yy",},
   ],
 }
