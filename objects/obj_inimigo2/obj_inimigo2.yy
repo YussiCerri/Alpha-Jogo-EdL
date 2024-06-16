@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_inimigo1",
+  "%Name":"obj_inimigo2",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_inimigo1",
+  "name":"obj_inimigo2",
   "overriddenProperties":[],
   "parent":{
     "name":"Inimigos",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_inimigo1",
-    "path":"sprites/spr_inimigo1/spr_inimigo1.yy",
+    "name":"spr_inimigo2",
+    "path":"sprites/spr_inimigo2/spr_inimigo2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
