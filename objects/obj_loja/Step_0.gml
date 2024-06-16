@@ -1,6 +1,2 @@
-p_meet = place_meeting(x,y,obj_player)
-switch(state){
-	case ST.ATIVO:
-		loja_ativa()
-		break
-}
+if state == ST.PAUSA exit
+loja_ativa()

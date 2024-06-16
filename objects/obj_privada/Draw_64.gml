@@ -1,8 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
-var pode_usar = place_meeting(x,y,obj_player)
-
-if desbloqueada and pode_usar
+if state == ST.PAUSA exit
+if desbloqueada 
 {
 	draw_rectangle_color(200,200,550,300,c_white,c_white,c_white,c_white,false)
 	if global.salas[num_operacoes("g")][0]!=undefined

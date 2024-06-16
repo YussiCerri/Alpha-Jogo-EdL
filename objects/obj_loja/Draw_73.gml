@@ -1,9 +1,9 @@
 switch(state){
 	case ST.PAUSA:
-		if p_meet{
+		if place_meeting(x,y,obj_player){
 			draw_sprite(spr_interact,0,x,y-32)
 		}
-		break
+		exit
 	default:
 		draw_loja()
 		break

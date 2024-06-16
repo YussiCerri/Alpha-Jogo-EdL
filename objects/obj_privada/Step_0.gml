@@ -1,10 +1,10 @@
+if state = ST.PAUSA exit
 
-
-if desbloqueada and place_meeting(x,y,obj_player)
+if desbloqueada 
 {
-	var selecionada = global.salas[num_operacoes("g")][1] //sala selecionada na opcao das privadas desbloqueadas
-	if keyboard_check_pressed(ord("A")) num_operacoes("-")
-	if keyboard_check_pressed(ord("D")) num_operacoes("+")
+	var _selecionada = global.salas[num_operacoes("g")][1] //sala selecionada na opcao das privadas desbloqueadas
+	if keyboard_check_pressed(global.control_left)num_operacoes("-")
+	if keyboard_check_pressed(global.control_right) num_operacoes("+")
 	
 	if global.use {
 		if array_get(global.salas[indice],1)!=self
@@ -14,10 +14,14 @@ if desbloqueada and place_meeting(x,y,obj_player)
 		}
 	}
 	
-	if global.interact and selecionada!=undefined and selecionada!=self{
+	if global.interact and _selecionada != undefined and _selecionada != self{
 		var _tran = instance_create_layer(0,0,layer,obj_transicao)
-		_tran.destino = selecionada.destino
-		_tran.destino_x = selecionada.destino_x
-		_tran.destino_y = selecionada.destino_y
+		_tran.destino = _selecionada.destino
+		_tran.destino_x = _selecionada.destino_x
+		_tran.destino_y = _selecionada.destino_y
 	}
+	devolver_controle()
+}
+else{
+	devolver_controle(true)
 }

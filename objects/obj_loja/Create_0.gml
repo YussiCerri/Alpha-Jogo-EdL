@@ -1,5 +1,4 @@
 state = ST.PAUSA
-p_meet = false
 //Cria uma pilha com os items
 items = items_loja()
 first_access = false

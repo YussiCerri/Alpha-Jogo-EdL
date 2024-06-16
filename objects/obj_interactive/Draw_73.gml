@@ -1,0 +1,1 @@
+if state == ST.PAUSA and place_meeting(x,y,obj_player) then draw_sprite(spr_interact,0,x,y-32)
