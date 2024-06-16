@@ -1,8 +1,9 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
+if (not congelado){
+	x = centro_x + lengthdir_x(raio, angulo);
+	y = centro_y + lengthdir_y(raio, angulo);
 
-x = centro_x + lengthdir_x(raio, angulo);
-y = centro_y + lengthdir_y(raio, angulo);
-
-// Atualizar o ângulo para o próximo quadro
-angulo += velocidade;
+	// Atualizar o ângulo para o próximo quadro
+	angulo += velocidade;
+}

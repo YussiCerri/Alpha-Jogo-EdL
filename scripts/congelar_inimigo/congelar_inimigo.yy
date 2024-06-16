@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"congelar_inimigo",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"congelar_inimigo",
+  "parent":{
+    "name":"Inimigos",
+    "path":"folders/Scripts/Inimigos.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

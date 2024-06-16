@@ -12,3 +12,5 @@ velocidade = 2.5;
 // Definir o ângulo inicial
 angulo = 0;
 
+image_speed = 0;
+congelado = false;
