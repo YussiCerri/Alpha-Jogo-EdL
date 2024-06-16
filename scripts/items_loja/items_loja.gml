@@ -104,7 +104,21 @@ function items_loja(){
 						default: i = (i + 1)%4
 					}
 				}
-			),			
+			),
+			new CriarItem("Uzi_fogo", 50, spr_fire_gun, ITYPE.ARMA,
+				function(){
+					static i = 0
+					switch(i){
+						case 0:  
+							var _dir = point_direction(x,y,mouse_x,mouse_y)
+							instance_create_layer(x+16*dcos(_dir),y-16*dsin(_dir),"Sensores", obj_burn,{
+							direction: _dir+irandom_range(-15,15),
+							speed: 8,
+							})
+						default: i = (i + 1)%4
+					}
+				}
+			),	
 		]
 	}
 }

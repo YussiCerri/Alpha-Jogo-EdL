@@ -15,6 +15,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_bn","order":1,"path":"objects/obj_bn/obj_bn.yy",},
+    {"name":"obj_burn","order":2,"path":"objects/obj_burn/obj_burn.yy",},
     {"name":"obj_coin","order":3,"path":"objects/obj_coin/obj_coin.yy",},
     {"name":"obj_explosion","order":1,"path":"objects/obj_explosion/obj_explosion.yy",},
     {"name":"obj_freeze","order":1,"path":"objects/obj_freeze/obj_freeze.yy",},
@@ -47,6 +48,8 @@
     {"name":"spr_desentupidor","order":2,"path":"sprites/spr_desentupidor/spr_desentupidor.yy",},
     {"name":"spr_explosion","order":11,"path":"sprites/spr_explosion/spr_explosion.yy",},
     {"name":"spr_fala","order":3,"path":"sprites/spr_fala/spr_fala.yy",},
+    {"name":"spr_fire_bullet","order":9,"path":"sprites/spr_fire_bullet/spr_fire_bullet.yy",},
+    {"name":"spr_fire_gun","order":7,"path":"sprites/spr_fire_gun/spr_fire_gun.yy",},
     {"name":"spr_hp","order":9,"path":"sprites/spr_hp/spr_hp.yy",},
     {"name":"spr_ice_bullet","order":8,"path":"sprites/spr_ice_bullet/spr_ice_bullet.yy",},
     {"name":"spr_ice_gun","order":6,"path":"sprites/spr_ice_gun/spr_ice_gun.yy",},
