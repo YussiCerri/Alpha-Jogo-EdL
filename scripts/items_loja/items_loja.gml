@@ -24,12 +24,23 @@ function items_loja(){
 			),
 			new CriarItem("Desentupidor",  5,spr_desentupidor,ITYPE.CONSUMIVEL,
 				function(){
-					var _target = instance_place(x,y,obj_privada)
-					if instance_exists(_target) and !_target.desbloqueada{
+					//var _target = instance_place(x,y,obj_privada)
+					with(instance_place(x,y,obj_privada)){
+						if !desbloqueada{
+							consume_item()
+							desbloqueada = true
+							image_index = 1
+							if array_get(global.salas[indice],1)!=self{
+								array_set(global.salas[indice],0,room)
+								array_set(global.salas[indice],1,self)
+							}	
+						}
+					}
+					/*if instance_exists(_target) and !_target.desbloqueada{
 						consume_item()
 						_target.desbloqueada = true
 						_target.image_index = 1
-					}
+					}*/
 				}
 			),
 			new CriarItem("Pocao de Cura", 5,spr_pocao,ITYPE.CONSUMIVEL,

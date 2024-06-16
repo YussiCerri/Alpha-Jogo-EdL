@@ -1,5 +1,6 @@
 //Chamada a script que recebe as entradas
 obter_entrada();
+if(timer==0 or global.hp<=0) {matar_player()}
 if state == ST.PAUSA exit
 //como state é um enum, todos os valores abaixo de morto são estados ativos
 if(state < ST.MORTO){
@@ -22,5 +23,4 @@ switch(state){
 		break
 	default: break
 }
-
-if(timer==0 or global.hp<=0) {matar_player()}
+//if(timer==0 or global.hp<=0) {matar_player()}
