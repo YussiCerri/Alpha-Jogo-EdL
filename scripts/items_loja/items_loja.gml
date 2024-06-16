@@ -3,7 +3,7 @@
 function items_loja(){
 	with(obj_player){
 		return [
-			new CriarItem("Aquario"     , 15,spr_aquario,ITYPE.EQUIPTOP,
+			new CriarItem("Aquario"     , 15,spr_aquario, ITYPE.EQUIPTOP,
 				function(){
 					timer = 10
 				}
@@ -24,7 +24,6 @@ function items_loja(){
 			),
 			new CriarItem("Desentupidor",  5,spr_desentupidor,ITYPE.CONSUMIVEL,
 				function(){
-					//var _target = instance_place(x,y,obj_privada)
 					with(instance_place(x,y,obj_privada)){
 						if !desbloqueada{
 							consume_item()
@@ -36,11 +35,6 @@ function items_loja(){
 							}	
 						}
 					}
-					/*if instance_exists(_target) and !_target.desbloqueada{
-						consume_item()
-						_target.desbloqueada = true
-						_target.image_index = 1
-					}*/
 				}
 			),
 			new CriarItem("Pocao de Cura", 5,spr_pocao,ITYPE.CONSUMIVEL,

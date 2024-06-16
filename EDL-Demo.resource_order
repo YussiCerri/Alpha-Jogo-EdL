@@ -5,6 +5,7 @@
     {"name":"tiros","order":2,"path":"folders/Objects/Loja do Zé Piranha/relacionados a itens/tiros.yy",},
     {"name":"Player","order":8,"path":"folders/Scripts/Player.yy",},
     {"name":"Ze Piranha","order":9,"path":"folders/Scripts/Ze Piranha.yy",},
+    {"name":"Menu","order":13,"path":"folders/Sprites/Menu.yy",},
     {"name":"Loja do Zé Piranha","order":1,"path":"folders/Sprites/Loja do Zé Piranha.yy",},
     {"name":"inventario","order":2,"path":"folders/Sprites/Loja do Zé Piranha/inventario.yy",},
     {"name":"itens_grande","order":1,"path":"folders/Sprites/Loja do Zé Piranha/itens_grande.yy",},

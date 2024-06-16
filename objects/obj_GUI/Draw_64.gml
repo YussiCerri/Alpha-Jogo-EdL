@@ -1,6 +1,6 @@
 /// @description Visual da Hud
 // Você pode escrever seu código neste editor
-
+{
 var _hp_x = 20;
 var _hp_y = 20;
 var _text_x = _hp_x + sprite_get_width(spr_hp) + 5; 
@@ -28,4 +28,5 @@ with(target){
 	}
 	//prints da hud relativos ao player
 	draw_inventario()
+}
 }
