@@ -118,7 +118,21 @@ function items_loja(){
 						default: i = (i + 1)%4
 					}
 				}
-			),	
+			),
+			new CriarItem("Sushirizador", 30, spr_sushirizador, ITYPE.ARMA,
+				function(){
+					static i = 0
+					switch(i){
+						case 0: 
+							var _dir = point_direction(x,y,mouse_x,mouse_y)						
+							instance_create_layer(x+16*dcos(_dir),y-16*dsin(_dir),"Sensores", obj_shuriken,{
+							direction: _dir,
+							speed: 16,
+							})
+						default: i = (i + 1)%16
+					}
+				}
+			),
 		]
 	}
 }
