@@ -12,5 +12,8 @@ velocidade = 2.5;
 // Definir o ângulo inicial
 angulo = 0;
 
-image_speed = 0;
-congelado = false;
+image_speed = 0; //Não muda de sprite
+
+//Status Effects
+congelado = false; 
+queimando = false;

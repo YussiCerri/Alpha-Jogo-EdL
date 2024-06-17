@@ -8,3 +8,4 @@ image_speed = 0;
 timer_movimento = -1
 
 congelado = false
+queimando = false
