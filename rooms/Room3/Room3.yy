@@ -18,7 +18,6 @@
     {"name":"inst_5C7D7A26","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_505716B8","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_3F1E6DEA","path":"rooms/Room3/Room3.yy",},
-    {"name":"inst_20AEDCFA","path":"rooms/Room3/Room3.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -31,7 +30,6 @@
         {"$GMRInstance":"","%Name":"inst_451FAFF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_451FAFF","objectId":{"name":"obj_tesouro","path":"objects/obj_tesouro/obj_tesouro.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":672.0,},
         {"$GMRInstance":"","%Name":"inst_78041B31","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_78041B31","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":256.0,},
         {"$GMRInstance":"","%Name":"inst_3F1E6DEA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3F1E6DEA","objectId":{"name":"obj_lixeira","path":"objects/obj_lixeira/obj_lixeira.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":704.0,},
-        {"$GMRInstance":"","%Name":"inst_20AEDCFA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_20AEDCFA","objectId":{"name":"obj_inimigo2","path":"objects/obj_inimigo2/obj_inimigo2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":256.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Sensores","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_1F495B76","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1F495B76","objectId":{"name":"obj_inimigo1","path":"objects/obj_inimigo1/obj_inimigo1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":576.0,},
@@ -86,7 +84,7 @@
           -6,3,3,11,3,3,-33,-2147483648,-8,0,-2,-2147483648,-3,3,-10,6,1,7,-11,-2147483648,-3,1,-5,-2147483648,
           -4,3,1,11,-4,3,-2,11,1,3,-31,-2147483648,-4,0,-2,11,-3,3,2,11,3,-12,6,1,7,-11,-2147483648,-2,1,9,3,11,
           3,11,3,11,3,3,11,-4,3,3,11,3,11,-3,3,-32,-2147483648,1,11,-3,3,-17,6,1,7,-11,-2147483648,-2,1,-18,3,
-          1,11,-3,3,1,11,-5,3,6,11,3,3,11,3,11,-3,3,1,11,-3,3,1,11,-6,3,1,11,-3,3,3,11,3,11,-17,6,-14,1,
+          1,11,-3,3,1,11,-5,3,-4,0,2,3,11,-3,3,1,11,-3,3,1,11,-6,3,1,11,-3,3,3,11,3,11,-17,6,-14,1,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_solido","path":"tilesets/ts_solido/ts_solido.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"layer_water","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"layer_water","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
           -1274,-2147483648,-16,1,-70,-2147483648,-16,1,-69,-2147483648,-17,1,-69,-2147483648,-17,1,-69,-2147483648,
