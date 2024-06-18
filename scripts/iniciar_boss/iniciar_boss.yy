@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"iniciar_boss",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"iniciar_boss",
+  "parent":{
+    "name":"Inimigos",
+    "path":"folders/Scripts/Inimigos.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

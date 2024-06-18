@@ -29,4 +29,5 @@ with(target){
 	//prints da hud relativos ao player
 	draw_inventario()
 }
+	
 }
