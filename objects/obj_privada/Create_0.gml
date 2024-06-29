@@ -3,4 +3,4 @@
 state = ST.PAUSA
 desbloqueada = false //PRIVADA DESBLOQUEADA
 image_speed = 0
-num_operacoes("0")
+num_operacoes("0","0")
