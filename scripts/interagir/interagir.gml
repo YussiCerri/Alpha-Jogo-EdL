@@ -5,6 +5,7 @@ function interagir(){
 		with(instance_place(x,y,obj_interactive)){
 			other.state = ST.PAUSA
 			self.state = ST.ATIVO
+			global.interact = false
 		}
 	}
 }
@@ -14,6 +15,8 @@ function devolver_controle(_bool = false){
 		with(obj_player){
 			self.state = position_meeting(x,y, global.layer_de_agua)? ST.AGUA : ST.TERRA
 			other.state = ST.PAUSA
+			return true
 		}
 	}
+	return false
 }

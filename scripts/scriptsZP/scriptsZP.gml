@@ -42,8 +42,7 @@ function loja_ativa(){
 			i = (i >= 0)? i : t_items - 1
 		}
 		else {
-			devolver_controle() 
-			if global.quit {status = false}
+			if devolver_controle() {status = false}
 		}
 		var _iprev = (i - 1 >=      0)? i - 1 : t_items - 1
 		var _iprox = (i + 1 < t_items)? i + 1 : 0
@@ -52,7 +51,6 @@ function loja_ativa(){
 	}
 	else{
 		status = true
-	
 	}
 }
 

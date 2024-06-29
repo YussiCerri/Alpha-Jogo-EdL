@@ -66,6 +66,7 @@
     {"name":"player_ativo_terra","order":3,"path":"scripts/player_ativo_terra/player_ativo_terra.yy",},
     {"name":"player_dano","order":5,"path":"scripts/player_dano/player_dano.yy",},
     {"name":"player_morto","order":4,"path":"scripts/player_morto/player_morto.yy",},
+    {"name":"privada_ativa","order":12,"path":"scripts/privada_ativa/privada_ativa.yy",},
     {"name":"queimar_inimigo","order":2,"path":"scripts/queimar_inimigo/queimar_inimigo.yy",},
     {"name":"scriptsZP","order":1,"path":"scripts/scriptsZP/scriptsZP.yy",},
     {"name":"snd_theme","order":1,"path":"sounds/snd_theme/snd_theme.yy",},
