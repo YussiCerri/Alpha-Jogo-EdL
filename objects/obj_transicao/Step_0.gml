@@ -24,4 +24,5 @@ if(alpha >= 1)
 if(mudei and alpha <= 0)
 {
 	instance_destroy()
+	obj_player.state = position_meeting(x,y, global.layer_de_agua)? ST.AGUA : ST.TERRA
 }

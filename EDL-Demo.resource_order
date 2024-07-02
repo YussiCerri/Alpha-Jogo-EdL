@@ -6,6 +6,7 @@
     {"name":"Bomba Buraco Negro","order":1,"path":"folders/Objects/Loja do Zé Piranha/relacionados a itens/Bomba Buraco Negro.yy",},
     {"name":"tiros","order":2,"path":"folders/Objects/Loja do Zé Piranha/relacionados a itens/tiros.yy",},
     {"name":"Inimigos","order":11,"path":"folders/Scripts/Inimigos.yy",},
+    {"name":"NPC","order":13,"path":"folders/Scripts/NPC.yy",},
     {"name":"Player","order":8,"path":"folders/Scripts/Player.yy",},
     {"name":"Ze Piranha","order":9,"path":"folders/Scripts/Ze Piranha.yy",},
     {"name":"Inimigos","order":16,"path":"folders/Sprites/Inimigos.yy",},
