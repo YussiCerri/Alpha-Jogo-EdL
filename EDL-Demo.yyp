@@ -100,6 +100,7 @@
     {"id":{"name":"Room42","path":"rooms/Room42/Room42.yy",},},
     {"id":{"name":"Room43","path":"rooms/Room43/Room43.yy",},},
     {"id":{"name":"Room44","path":"rooms/Room44/Room44.yy",},},
+    {"id":{"name":"array_conquistas","path":"scripts/array_conquistas/array_conquistas.yy",},},
     {"id":{"name":"congelar_inimigo","path":"scripts/congelar_inimigo/congelar_inimigo.yy",},},
     {"id":{"name":"derrotar_inimigo","path":"scripts/derrotar_inimigo/derrotar_inimigo.yy",},},
     {"id":{"name":"enums_e_macros","path":"scripts/enums_e_macros/enums_e_macros.yy",},},

@@ -57,6 +57,7 @@
     {"name":"Room42","order":1,"path":"rooms/Room42/Room42.yy",},
     {"name":"Room43","order":22,"path":"rooms/Room43/Room43.yy",},
     {"name":"Room44","order":23,"path":"rooms/Room44/Room44.yy",},
+    {"name":"array_conquistas","order":14,"path":"scripts/array_conquistas/array_conquistas.yy",},
     {"name":"congelar_inimigo","order":1,"path":"scripts/congelar_inimigo/congelar_inimigo.yy",},
     {"name":"enums_e_macros","order":3,"path":"scripts/enums_e_macros/enums_e_macros.yy",},
     {"name":"iniciar_boss","order":3,"path":"scripts/iniciar_boss/iniciar_boss.yy",},
