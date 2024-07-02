@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"iniciar_boss",
   "isCompatibility":false,
   "isDnD":false,

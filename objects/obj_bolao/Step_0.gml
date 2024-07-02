@@ -1,0 +1,1 @@
+bolao_mover_barreira()

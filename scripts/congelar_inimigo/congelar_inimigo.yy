@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"congelar_inimigo",
   "isCompatibility":false,
   "isDnD":false,

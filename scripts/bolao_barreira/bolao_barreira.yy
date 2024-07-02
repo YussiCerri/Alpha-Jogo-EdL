@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"bolao_barreira",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"bolao_barreira",
+  "parent":{
+    "name":"Inimigos",
+    "path":"folders/Scripts/Inimigos.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

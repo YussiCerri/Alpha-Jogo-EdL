@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"obter_entrada",
   "isCompatibility":false,
   "isDnD":false,

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"derrotar_inimigo",
   "isCompatibility":false,
   "isDnD":false,
