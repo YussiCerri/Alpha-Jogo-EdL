@@ -11,7 +11,10 @@ function executar_dialogo() {
 
     // Verifica se o índice atual de diálogo ultrapassou o tamanho da lista de diálogos
     if (self.dialogo_atual >= ds_list_size(_dialogos_da_instancia)) {
-        self.dialogo_atual = 0; // Reinicia o índice de diálogo para o início
+		alarm[0] = game_get_speed(gamespeed_fps) * 0.5
+		intervalo = true
+        self.dialogo_atual = 0;// Reinicia o índice de diálogo para o início
+		self.texto = ""
         devolver_controle(true); // Retorna o controle para o player
     } else {
         self.texto = _dialogos_da_instancia[| self.dialogo_atual]; // Obtém o texto do diálogo atual
