@@ -31,7 +31,7 @@
           -3,1,-2,6,-20,7,1,6,-3,7,-5,6,-4,1,-48,-2147483648,-4,1,1,6,-15,7,-3,6,-2,7,-8,6,-4,1,-50,-2147483648,
           -4,1,-2,6,1,7,-4,6,1,7,-19,6,-5,1,-52,-2147483648,-3,1,-25,6,-4,1,-55,-2147483648,-2,1,-25,6,-3,1,-57,
           -2147483648,-2,1,-23,6,-3,1,-60,-2147483648,-25,1,-60,-2147483648,-27,0,-59,-2147483648,-27,0,-59,-2147483648,
-          -27,0,-59,-2147483648,-27,0,-59,-2147483648,-27,0,-59,-2147483648,-27,0,-60,-2147483648,-24,7,-30,-2147483648,
+          -27,0,-59,-2147483648,-27,0,-59,-2147483648,-27,0,-59,-2147483648,-27,0,-60,-2147483648,-24,0,-30,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_solido","path":"tilesets/ts_solido/ts_solido.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4284547072,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
