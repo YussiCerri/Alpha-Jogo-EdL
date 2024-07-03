@@ -5,6 +5,7 @@ self.nome = "Placa";
 self.texto = "";
 self.state = ST.PAUSA;
 self.dialogo_atual = 0;
+self.intervalo = false;
 
 // Inicialização padrão para `placa_tipo`
 // Tem que atribuir valores específicos para `placa_tipo` no editor de salas para cada instância
