@@ -10,12 +10,12 @@ if(state < ST.MORTO){
 switch(state){
 	case ST.TERRA:
 		usar_item_atual()
-		player_ativo_terra()
+		player_ativo_terra2()
 		interagir()
 		break
 	case ST.AGUA:
 		usar_item_atual()
-		player_ativo_agua()
+		player_ativo_agua2()
 		interagir()
 		break
 	case ST.MORTO:

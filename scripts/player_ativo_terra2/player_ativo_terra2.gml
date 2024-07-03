@@ -9,13 +9,13 @@ function player_ativo_terra2(){
 	
 	if (_dir_h != 0){
 		hsp = (hsp == 0)? P_SPEED*_dir_h : hsp
-		var _mov_valido = !colisao_com_solido(x + _dir_h*(hsp + ACC),y) //verifica a colisão
+		var _mov_valido = !colisao_com_solido2(x + _dir_h*(hsp + ACC),y) //verifica a colisão
 		hsp = (!(abs(hsp) < P_SPEED_MAX/2)? P_SPEED_MAX*_dir_h/2 : hsp + ACC*_dir_h)*_mov_valido
 	}
 	else{
 		var _temp = hsp/abs(hsp)
 		var _mod_h = (_temp != 0)? _temp : 0
-		var _mov_valido = !colisao_com_solido(x + hsp,y)
+		var _mov_valido = !colisao_com_solido2(x + hsp,y)
 		hsp = (_mov_valido and hsp != 0)? hsp - ACC*_mod_h: 0
 	}
 	
