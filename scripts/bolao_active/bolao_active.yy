@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"bolao_barreira",
+  "%Name":"bolao_active",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"bolao_barreira",
+  "name":"bolao_active",
   "parent":{
     "name":"Bolao",
     "path":"folders/Scripts/Inimigos/Bolao.yy",

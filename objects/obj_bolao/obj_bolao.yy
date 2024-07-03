@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bolao",
-    "path":"sprites/spr_bolao/spr_bolao.yy",
+    "name":"spr_bolao_base",
+    "path":"sprites/spr_bolao_base/spr_bolao_base.yy",
   },
   "spriteMaskId":null,
   "visible":true,
