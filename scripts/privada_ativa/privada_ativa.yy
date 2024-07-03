@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"privada_ativa",
   "isCompatibility":false,
   "isDnD":false,
