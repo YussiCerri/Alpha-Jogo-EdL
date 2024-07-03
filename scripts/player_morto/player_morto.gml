@@ -3,7 +3,7 @@
 function player_morto(){
 	var _toca_solo = position_meeting(x,y+1,global.layer_de_colisao)
 	//position meeting é só usado uma vez
-	if !_toca_solo{ y+=1 }
+	if !_toca_solo{y+=1}
 	menu_give_control()
 }
 
