@@ -3,7 +3,7 @@
 function player_ativo_agua2(){
 	//timer de sobrevivência fora da agua
 	timer = 10
-	
+	menu_give_control()
 	#region Movimentação na Agua
 	var _xscale_prev = image_xscale
 	var _dir_h = (global.right - global.left) //direção horizontal

@@ -1,12 +1,3 @@
 state = ST.PAUSA
 
-options =
-[
-
-
-
-
-
-
-
-]
+indice = 0

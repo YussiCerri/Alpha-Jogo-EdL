@@ -23,7 +23,6 @@ switch(state){
 		break
 	default: break
 }
-//if(timer==0 or global.hp<=0) {matar_player()}
 
 if(timer==1 and place_meeting(x,y,global.layer_de_agua))
 {array_conquistas(0)}
