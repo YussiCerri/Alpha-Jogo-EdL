@@ -19,6 +19,7 @@ function bolao_dash(){
 				fase = 2
 				speed = 16
 				direction = image_angle
+				t = 0
 			}
 			break
 		case 2:

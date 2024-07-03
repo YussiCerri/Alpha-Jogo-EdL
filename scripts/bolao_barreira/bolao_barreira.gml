@@ -8,9 +8,11 @@ function bolao_criar_barreira(){
 
 function bolao_mover_barreira(){
 	with(obj_spike){
-		var _dir = point_direction(other.x,other.y,self.x,self.y)
-		x = other.x + 150*dcos(_dir + 2)
-		y = other.y - 150*dsin(_dir + 2)
+		if fase == 0{
+			var _dir = point_direction(other.x,other.y,self.x,self.y)
+			x = other.x + 150*dcos(_dir + 2)
+			y = other.y - 150*dsin(_dir + 2)
+		}
 	}
 }
 
@@ -20,8 +22,9 @@ function bolao_atirar(){
 			var _dir = point_direction(other.x,other.y,self.x,self.y)
 			x = other.x + 150*dcos(_dir + 2)
 			y = other.y - 150*dsin(_dir + 2)
-			if abs(point_direction(other.x,other.y,self.x,self.y) - point_direction(self.x,self.y,obj_player.x,obj_player.y)) < 5 {
+			if abs(point_direction(other.x,other.y,self.x,self.y) - point_direction(self.x,self.y,obj_player.x,obj_player.y)) < 30 {
 				speed = 8
+				direction = point_direction(self.x,self.y,obj_player.x,obj_player.y)
 				fase = 1
 			}
 		}

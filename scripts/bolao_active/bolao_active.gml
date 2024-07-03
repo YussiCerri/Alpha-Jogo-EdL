@@ -5,24 +5,32 @@ function bolao_active(){
 	static fase = 0
 	switch(fase){
 		case 0:
-			//Escolhendo seu plano
+			bolao_mover_barreira()
 			t++
 			if t >= 90{
 				t = 0
-				fase = irandom_range(1,2)
+				fase = 2
 			}
 			break
 		case 1:
 			//bolao faz o dash
 			bolao_dash()
+			if state != ST.ATIVO {
+				fase = 3
+				state = ST.ATIVO
+			}
 			break
 		case 2: 
 			//bolao usa sua defesa para atacar
 			bolao_atirar()
 			if !instance_exists(obj_spike){
-				bolao_criar_barreira()
-				fase = 0
+				fase = 1
 			}
+			break
+		case 3: 
+			sprite_index = spr_bolao_base
+			bolao_criar_barreira()
+			fase = 0
 			break
 	}
 }

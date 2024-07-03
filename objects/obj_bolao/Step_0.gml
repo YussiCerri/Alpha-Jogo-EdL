@@ -1,4 +1,3 @@
 
-bolao_mover_barreira()
-
 bolao_active()
+if vidas == 0 then instance_destroy()
