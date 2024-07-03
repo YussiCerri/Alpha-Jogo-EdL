@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"executar_dialogo",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"executar_dialogo",
+  "parent":{
+    "name":"NPC",
+    "path":"folders/Scripts/NPC.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
