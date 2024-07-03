@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"colisao_com_solido",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"colisao_com_solido",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

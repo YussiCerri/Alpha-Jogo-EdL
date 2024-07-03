@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"player_ativo_agua2",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"player_ativo_agua2",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
