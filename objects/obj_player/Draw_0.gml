@@ -12,3 +12,5 @@ switch(_t.tipo){
 		draw_sprite_ext(_t.sprite, 0, x, y,1,_y_scale,_angle,c_white,1);break
 	default: draw_sprite_ext(_t.sprite, 0, x, y,1,1,image_angle,c_white,1)
 }
+
+draw_text(20,300,global.conquistas)
