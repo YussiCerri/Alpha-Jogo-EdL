@@ -31,3 +31,6 @@ with(target){
 }
 	
 }
+
+//Desbloquear conquista de 2000 moedas
+if global.coins>=2000 {array_conquistas(3)}
