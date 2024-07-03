@@ -31,8 +31,7 @@
           -3,1,-32,-2147483648,-11,1,-40,-2147483648,-3,1,-32,-2147483648,-11,1,-40,-2147483648,-3,1,-32,-2147483648,
           -11,1,-40,-2147483648,-3,1,-32,-2147483648,-11,1,-40,-2147483648,-3,1,-32,-2147483648,-11,1,-40,-2147483648,
           -3,1,-32,-2147483648,-11,1,-40,-2147483648,-3,1,-32,-2147483648,-11,1,-40,-2147483648,-3,1,-32,-2147483648,
-          -11,1,-40,-2147483648,-3,1,-32,-2147483648,-11,1,-40,-2147483648,-46,1,-40,-2147483648,-12,0,-2,1,-32,
-          0,
+          -11,1,-40,-2147483648,-3,1,-32,-2147483648,-11,1,-40,-2147483648,-46,1,-40,-2147483648,-46,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_solido","path":"tilesets/ts_solido/ts_solido.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"layer_water","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"layer_water","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
           -2794,-2147483648,-34,7,-50,-2147483648,-35,7,-51,-2147483648,-35,7,-51,-2147483648,-35,7,-51,-2147483648,
@@ -40,7 +39,7 @@
           -35,7,-51,-2147483648,-35,7,-51,-2147483648,-35,7,-51,-2147483648,-35,7,-51,-2147483648,-35,7,-51,-2147483648,
           1,7,-9,0,-2,7,-24,0,-50,-2147483648,-35,0,-11,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_agua","path":"tilesets/ts_agua/ts_agua.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4281008128,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4284547072,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"Room21",
   "parent":{

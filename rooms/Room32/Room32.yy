@@ -36,8 +36,8 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":688.0,},
       ],"layers":[],"name":"Sensores","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"layer_solid","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"layer_solid","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
-          -52,0,-2,10,-20,0,1,15,-14,0,-11,-2147483648,-2,0,-36,-2147483648,-2,10,-31,-2147483648,-2,0,-51,-2147483648,
-          -2,10,-31,-2147483648,-2,0,-10,-2147483648,1,0,-40,-2147483648,-2,10,-31,-2147483648,-2,0,-8,-2147483648,
+          -52,0,-2,10,-35,0,-11,-2147483648,-2,0,-36,-2147483648,-2,10,-31,-2147483648,-2,0,-51,-2147483648,-2,
+          10,-31,-2147483648,-2,0,-10,-2147483648,1,0,-40,-2147483648,-2,10,-31,-2147483648,-2,0,-8,-2147483648,
           1,0,-42,-2147483648,-2,10,-31,-2147483648,-2,0,-4,-2147483648,-2,0,-45,-2147483648,-2,10,-30,-2147483648,
           -5,0,-15,-2147483648,-8,0,-26,-2147483648,-2,10,-30,-2147483648,-3,0,-15,-2147483648,1,0,-7,2,-4,0,-24,
           -2147483648,-2,10,-30,-2147483648,-3,0,-13,-2147483648,-3,2,-7,1,-4,2,1,0,-23,-2147483648,-2,7,-30,-2147483648,
