@@ -4,5 +4,6 @@ function menu_give_control(){
 	if global.quit{
 		state = (state == ST.MORTO)? ST.MORTO: ST.PAUSA
 		obj_menu.state = ST.ATIVO
+		global.quit = false
 	}
 }

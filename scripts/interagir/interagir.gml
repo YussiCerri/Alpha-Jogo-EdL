@@ -15,6 +15,7 @@ function devolver_controle(_bool = false){
 		with(obj_player){
 			self.state = position_meeting(x,y, global.layer_de_agua)? ST.AGUA : ST.TERRA
 			other.state = ST.PAUSA
+			global.quit = false
 			return true
 		}
 	}

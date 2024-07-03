@@ -6,9 +6,8 @@ function obter_entrada(){
 	global.up = keyboard_check(global.control_up)
 	global.down = keyboard_check(global.control_down)
 	global.interact = keyboard_check_released(global.control_interact)
-	global.quit = keyboard_check(global.control_quit)
+	global.quit = keyboard_check_released(global.control_quit)
 	global.use =  keyboard_check(global.control_use)
-	//if keyboard_check(ord("R")){game_restart()}
 }
 //função para caso algum erro seja feito na entrada dos testes
 function entrada_padrao(){

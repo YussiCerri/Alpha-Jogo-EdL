@@ -2,7 +2,7 @@
 // Você pode escrever seu código neste editor
 
 draw_self()
-if (self.state == ST.ATIVO and !self.intervalo) {
+if (self.state == ST.ATIVO) {
     var _guil = display_get_gui_width();
     var _guia = display_get_gui_height();
     var _xx = 0;
