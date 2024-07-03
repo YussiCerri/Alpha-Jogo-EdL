@@ -11,6 +11,7 @@ vel_piscar = 8; // Qunato maior mais lento o sprite pisca
 timer_piscar = 0;
 global.hp = 5 //Vida atual
 global.max_hp = 5 //Vida máxima
+num_sushi=0 //Numero de sushis comidos
 
 inv = [NOITEM,NOITEM,NOITEM,NOITEM,NOITEM] // Array de structs vazios
 item_index = 0

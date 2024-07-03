@@ -13,4 +13,11 @@ switch(_t.tipo){
 	default: draw_sprite_ext(_t.sprite, 0, x, y,1,1,image_angle,c_white,1)
 }
 
-draw_text(20,300,global.conquistas)
+var impressor = array_filter(global.conquistas,function(_x) {return _x[1]==true}) //Array com os nomes das conquistas
+function imprimir(vet) 
+{
+	static arr=[]
+	for(var i=0;i<array_length(vet);i++) {arr[i]=vet[i][0]}
+	return arr
+}
+draw_text(20,300,imprimir(impressor))

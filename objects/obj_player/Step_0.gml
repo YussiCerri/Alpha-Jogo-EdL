@@ -26,3 +26,5 @@ switch(state){
 
 if(timer==1 and place_meeting(x,y,global.layer_de_agua))
 {array_conquistas(0)}
+
+if num_sushi>=30 {array_conquistas(4)}
