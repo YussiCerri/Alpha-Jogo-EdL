@@ -1,0 +1,12 @@
+state = ST.PAUSA
+
+options =
+[
+
+
+
+
+
+
+
+]
